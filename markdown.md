@@ -25,3 +25,11 @@ code code code (In diesem Fall JavaScript)
 
 **Headlines**  
 ** h1 (#) bis h6 (######)**
+
+## **Bild einfügen aus Finder/etc.**
+
+```
+![Finder](resources/vsc_test_screen.png)
+```
+
+![Finder](resources/vsc_test_screen.png)
