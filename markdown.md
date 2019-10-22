@@ -32,4 +32,4 @@ code code code (In diesem Fall JavaScript)
 ![Finder](resources/vsc_test_screen.png)
 ```
 
-\*Ausrufezeichen + [Alt-Text](Link)\*
+_Ausrufezeichen + [Alt-Text](Link)_
