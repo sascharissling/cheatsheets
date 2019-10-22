@@ -14,3 +14,14 @@ _**Soft Break**_ > `··`
 **Bold** `**`  
 _Italic_ `*`  
 **Hard Break** `zwei mal Return`
+
+**Display Code**
+
+````
+```js
+code code code (In diesem Fall JavaScript)
+```
+````
+
+**Headlines**  
+** h1 (#) bis h6 (######)**
