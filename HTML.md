@@ -1,7 +1,5 @@
 ## HTML
 
-Hello World, this is my HTML Cheatsheet.
-
 ### HTML Semantic Tags
 
 ![HTML Semantic Tags](resources/html5_semantic_tags.png)

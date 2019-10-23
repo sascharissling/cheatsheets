@@ -1,7 +1,5 @@
 ## Markdown Cheatsheet
 
-This is my .md-Cheatsheet
-
 ## **Links**
 
 **In Line Links** `[Text to write](http://google.com)`  
