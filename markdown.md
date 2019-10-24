@@ -11,6 +11,7 @@
 _**Soft Break**_ > `··`  
 **Bold** `**`  
 _Italic_ `*`  
+~~durchgestrichen~~ `~~text~~` = streicht den Text durch  
 **Hard Break** `zwei mal Return`
 
 **Display Code**

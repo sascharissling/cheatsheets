@@ -2,7 +2,9 @@
 
 ### HTML Semantic Tags
 
-![HTML Semantic Tags](resources/html5_semantic_tags.png)
+![Element Explanation](/resources/html_element_explanation.png)
+
+![HTML Semantic Tags](/resources/html5_semantic_tags.png)
 
 `<main>` - for the main content of the webpage (unique to that page)
 
@@ -40,3 +42,6 @@
 > There must not be more than one visible main element in a document."
 
 ---
+
+####Breadcrumbs
+![Breadcrumbs example](/resources/breadcrumbs.png)
