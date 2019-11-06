@@ -11,6 +11,8 @@ The "use strict" directive switches the engine to the “modern” mode, changin
 Only the simplest scripts are put into HTML. More complex ones reside in separate files.
 The benefit of a separate file is that the browser will download it and store it in its cache.
 
+> if a script is inside `head`, then `document.body` is unavailable, because the browser did not read it yet.
+
 # JS Rules
 
 - Never declare multiple variables in one line. Although multiline stile is possible as stated below:
@@ -80,6 +82,8 @@ let user = 'John',
 
 ### DOM (Document Object Model)
 
+> In the DOM world `null` means “doesn’t exist”
+
 - represents all page content as objects that can be modified
   -the `document` object is the main "entry point" to the page. We can change or create anything on the page using it.
   i.e.
@@ -114,3 +118,11 @@ if (confirm("Go to Wikipedia?")) {
 }
 ```
 ````
+
+## getElement*, querySelector*
+
+- If an element has the `id` attribute, we can get the element using the method `document.getElementById(id)`, no matter where it is.
+
+### querySelectorAll
+
+- By far, the most versatile method, `elem.querySelectorAll(css)` returns all elements inside `elem` matching the given CSS selector.
