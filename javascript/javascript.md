@@ -75,3 +75,42 @@ let user = 'John',
 #### typeof Operator
 
 -The call to typeof x returns a string with the type name
+
+## Browser: Document, Events, Interfaces
+
+### DOM (Document Object Model)
+
+- represents all page content as objects that can be modified
+  -the `document` object is the main "entry point" to the page. We can change or create anything on the page using it.
+  i.e.
+
+```
+// change the background color to red//
+document.body.style.background = "red";
+
+// change it back after 1 second //
+
+setTimeout(() => document.body.style.background = "", 1000);
+```
+
+#### Dom living standard
+
+https://dom.spec.whatwg.org/
+
+### How to walk the DOM
+
+http://javascript.info/dom-navigation
+
+![picture](/resources/walkthedom.png)
+
+### BOM (Browser Object Model)
+
+- represents additional objects provided by the browser (host environment) for working with everything except the document.
+
+````
+alert(location.href); // shows current URL
+if (confirm("Go to Wikipedia?")) {
+  location.href = "https://wikipedia.org"; // redirect the browser to another URL
+}
+```
+````
