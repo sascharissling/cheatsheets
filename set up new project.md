@@ -2,6 +2,22 @@
 
 - `npm init -y`
 - `npm install -D parcel-bundler sass eslint posthtml`
+- erstelle `.htmlhintrc`
+  mit Inhalt: 
+  ```
+  {
+    "doctype-first": false; 
+}
+```
+
+-erstelle `.nowignore``
+  mit Inhalt: 
+  ```
+  cache
+dist
+node_modules
+```
+
 - erstelle `git ignore`mit "node_modules, .cache, dist, .DS_Store"
 - dev script package json
   ```
