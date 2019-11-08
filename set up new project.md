@@ -1,7 +1,7 @@
 ### setup new project
 
 - `npm init -y`
-- `npm install -D parcel-bundler sass eslint`
+- `npm install -D parcel-bundler sass eslint posthtml`
 - erstelle `git ignore`mit "node_modules, .cache, dist, .DS_Store"
 - dev script package json
   ```
