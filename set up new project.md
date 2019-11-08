@@ -7,17 +7,27 @@
   ```
   {
     "doctype-first": false; 
-}
-```
+  }
+  ```
 
--erstelle `.nowignore``
+-erstelle `.nowignore`
   mit Inhalt: 
   ```
   cache
-dist
-node_modules
-```
-
+  dist
+  node_modules
+  ```
+-erstelle `.posthtmlrc`
+  mit Inhalt: 
+  ```
+  {
+  "plugins": {
+    "posthtml-include": {
+      "root": "./src"
+      }
+    }
+   }
+  ```
 - erstelle `git ignore`mit "node_modules, .cache, dist, .DS_Store"
 - dev script package json
   ```
